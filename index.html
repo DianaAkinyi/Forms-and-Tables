@@ -5,36 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <style>
-        #heading{
-            color: blueviolet;
-        }
-    .form{
-        color: blueviolet;
-        text-align: center;
-    }
-    .float-image{
-        float: left;
-        clear: left;
-        margin-left: 10px;
-        margin: bottom 5px;
-        padding:10px ;
-    }
-    #heading{
-        float: inline-start;width: 40px;height: 40px;
-    }     
-    </style>
-
-</head>
-<body>
+    <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
 <img src="learning.jpg" alt="e-learning image" width="50%" height="90%"
 class="float-image">
 
-    <form class="form">
+
+    <div class="form">
+        <form>
         <h1>Hey, Hello
-            <img id="heading"src="download.png" alt="hello">
+        <img id="heading"src="download.png" alt="hello">
         </h1>
-        <p>Enter the informatin you entered while registering</p>
+    
+        <div>
+        <p>Enter the information you entered while registering</p>
         <label for="email">Email:</label><br>
         <input type="email" name="Email" /><br><br><br>
         <label for="password">Password:</label><br>
@@ -45,8 +30,9 @@ class="float-image">
         <button style="color: white; background-color:blueviolet;"><a href="login.html">login</a></button>
         </label><br><br>
         <label>Do not have an account?<button><a href="signup.html">signup</a></button></label>
-        
+        </div>
 
     </form>
+</div>
 </body>
 </html>
